@@ -1,4 +1,4 @@
-* {
+html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -56,19 +56,22 @@ input[type="text"] {
   align-items: flex-start;
   min-height: 0;
   width: 100%;
+  padding: 15px;
 }
 .role-item {
   flex: 1 1 30%;
   text-align: center;
 }
-.text-item label {
+.text-item label,
+.profile-pic-item label {
   display: block;
   padding: 30px 0 8px 0;
 }
 .text-item label,
-.text-item input {
-  margin: 0 15px;
+.text-item input,
+button {
   width: 100%;
+  display: block;
 }
 /*.text-item label,
 .text-item input {
@@ -77,4 +80,11 @@ input[type="text"] {
 .profile-pic-item,
 .text-item {
   flex: 1 1 40%;
+  padding: 0 15px;
+}
+.submit-item {
+  align-self: flex-end;
+}
+.submit-item button {
+  padding: 8px;
 }
