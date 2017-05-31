@@ -1,15 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Profile Setup</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <div class="outer">
     <section>
-      lorem ipsum dolor set
+      <h1>Sign up</h1>
+      <form class="sign-up">
+          <div class="control-group role-item">
+            <input type="radio" name="role" value="admin" id="admin">
+            <label for="admin">admin</label>
+          </div>
+          <div class="control-group role-item">
+            <input type="radio" name="role" value="personal" id="personal">
+            <label for="personal">personal</label>
+          </div>
+          <div class="control-group role-item">
+            <input type="radio" name="role" value="guest" id="guest">
+            <label for="guest">guest</label>
+          </div>
+          <div class="control-group text-item">
+            <label for="name">name</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="control-group text-item">
+            <label for="email address">email address</label>
+            <input type="text" email address="email address" id="email address">
+          </div>
+          <div class="control-group text-item">
+            <label for="password">password</label>
+            <input type="text" password="password" id="password">
+          </div>
+          <div class="control-group text-item">
+            <label for="confirm-password">confirm password</label>
+            <input type="text" confirm-password="confirm-password" id="confirm-password">
+          </div>
+          <div class="control-group profile-pic-item">
+            <input type="file" name="profile-pic" id="profile-pic">
+          </div>
+          <div class="control-group submit-item">
+            <button type="submit" id="submit">sign up</button>
+          </div>
+      </form>
     </section>
   </div>
 </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <h1>Sign up</h1>
+      <form class="sign-up">
+        <fieldset class="role-input">
+          <div class="form-group">
+            <input type="radio" name="role" value="admin" id="admin">
+            <label for="admin">admin</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" name="role" value="personal" id="personal">
+            <label for="personal">personal</label>
+          </div>
+          <div class="form-group">
+            <input type="radio" name="role" value="guest" id="guest">
+            <label for="guest">guest</label>
+          </div>
+        </fieldset>
+        <fieldset class="text-input">
+          <div class="form-group">
+            <label for="name">name</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email address">email address</label>
+            <input type="text" email address="email address" id="email address">
+          </div>
+          <div class="form-group">
+            <label for="password">password</label>
+            <input type="text" password="password" id="password">
+          </div>
+          <div class="form-group">
+            <label for="confirm-password">confirm password</label>
+            <input type="text" confirm-password="confirm-password" id="confirm-password">
+          </div>
+        </fieldset>
+        <fieldset class="file-send">
+          <input type="file" name="profile-pic" id="profile-pic">
+          <button type="submit" id="submit">sign up</button>
+        </fieldset>
+      </form>
+    </section>
+  </div>
+</body>
+</html> -->

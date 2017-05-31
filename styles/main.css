@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
-
-html {
+* {
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -25,4 +23,56 @@ section {
   max-width: 760px;
   background-color: #ffffff;
   padding: 2rem 0;
+}
+
+/*New Styles*/
+.sign-up {
+  min-width: 760px;
+}
+h1 {
+  text-align: center;
+}
+#profile-pic,
+#submit {
+  border: none;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+#submit {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+input[type="radio"] {
+  height: 16px;
+  width: 16px;
+}
+input[type="text"] {
+  padding: 12px;
+}
+/*Flexbox*/
+.sign-up {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  height: 450px;
+  width: 100%;
+}
+.role-item {
+  flex: 1 1 30%;
+  text-align: center;
+}
+.text-item label {
+  display: block;
+  margin-bottom: 12px;
+}
+/*.text-item label,
+.text-item input {
+}*/
+.submit-item,
+.profile-pic-item,
+.text-item {
+  flex: 1 1 40%;
+}
+#submit {
+  white-space: nowrap;
 }
