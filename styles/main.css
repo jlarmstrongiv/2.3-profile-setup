@@ -26,21 +26,19 @@ section {
 }
 
 /*New Styles*/
-.sign-up {
-  min-width: 760px;
-}
 h1 {
   text-align: center;
 }
-#profile-pic,
-#submit {
+.profile-pic-item input,
+.submit-item button {
   border: none;
   background-color: #FFFFFF;
   color: #000000;
 }
-#submit {
-  border: 2px solid black;
+.submit-item button {
+  padding: 8px;
   border-radius: 3px;
+  border: 2px solid black;
 }
 input[type="radio"] {
   height: 16px;
@@ -73,9 +71,6 @@ button {
   width: 100%;
   display: block;
 }
-/*.text-item label,
-.text-item input {
-}*/
 .submit-item,
 .profile-pic-item,
 .text-item {
@@ -84,7 +79,4 @@ button {
 }
 .submit-item {
   align-self: flex-end;
-}
-.submit-item button {
-  padding: 8px;
 }
